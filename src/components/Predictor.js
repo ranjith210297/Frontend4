@@ -6,7 +6,6 @@ import TabContainer from "react-bootstrap/TabContainer";
 import TabContent from "react-bootstrap/TabContent";
 import TabPane from "react-bootstrap/TabPane";
 import RealTimeScanner from "./RealTime_Scanner";
-import "./login.css";
 import FileUpload from "./FileUpload";
 
 class Predictor extends React.Component {

@@ -5,8 +5,6 @@ import BootstrapNavbar from "./components/BootstrapNavbar";
 import Contactus from "./components/Contactus";
 import Predictor from "./components/Predictor";
 import ScrollBar from "react-perfect-scrollbar";
-import LoginButton from "./components/LoginButton";
-import Login from "./components/login";
 import "react-perfect-scrollbar/dist/css/styles.css";
 
 
@@ -19,12 +17,9 @@ function App() {
     <Router>
       <BootstrapNavbar />
       
-      <LoginButton />
+     
       
-      <Route exact path="/Login">
-        <Login />
-      </Route>
-    {/* <Login /> */}
+      
       <Route exact path="/">
         <Predictor />
       </Route>

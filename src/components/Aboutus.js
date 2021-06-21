@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { CardGroup } from "react-bootstrap";
-import "./login.css";
 class Aboutus extends React.Component {
   render() {
     return (

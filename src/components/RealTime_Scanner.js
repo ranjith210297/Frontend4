@@ -9,7 +9,6 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Col, Row, Card } from "react-bootstrap";
 import ReactPlayer from 'react-player';
 import Api1 from "./Api1.js";
-import "./login.css";
 
 let classifier;
 
