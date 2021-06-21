@@ -79,7 +79,7 @@ function FileUpload() {
           <Card
             bg="transparent"
             text="dark"
-            border="secondary"
+            border="success"
             className="text-center"
             style={{
               borderRadius: "2%",
@@ -171,7 +171,6 @@ function FileUpload() {
                     <Container justify>
                       
                       <Row className="show-grid" >
-                      <Col xs={7} md={6}>
                         <b>Blight of Cotton</b>
                         {/* <text 
                         numberOfLines={1}
@@ -179,32 +178,29 @@ function FileUpload() {
                         style={{textalign:'center',fontsize:30}}> */}
                         <p style={{textAlign:"justify"}}>Blight of cotton (also called Angular Leaf Spot) is an important bacterial disease. Foliar symptoms consist of dark brown to black, angular leaf spots (Fig. 1) that may progress along major leaf veins.</p>
                         {/* </text> */}
-                      </Col>
+                    
 
-                      <Col xs={7} md={6} >
                         <b>Cure</b>
                         <p style={{textAlign:"justify"}}>Fields with documented bacterial blight should be planted with a blight-resistant cultivar the following year or rotated with a non-host crop like corn, grain sorghum, peanut, and soybean.</p>
-                      </Col>
+                    
                       
-                      <Col xs={7} md={6} >
+                      
                         <b>Fungal Leaf Spots</b>
                         <p style={{textAlign:"justify"}}>This disease turns the leaf color to brown or gray spots with reddish-purple margins. </p>
-                        
-                      </Col>
-                      <Col xs={7} md={6} >
+                     
+                      
                         <b>Cure</b>
                         <p style={{textAlign:"justify"}}>Recommended nutrient requirements for healthy cotton production is usually sufficient to manage fungal leaf spot of cotton.</p>
-                      </Col>
-                      <Col xs={7} md={6} >
+                     
+                      
                         <b>Corynespora leaf spot</b>
                         <p style={{textAlign:"justify"}}>On cotton, it begins a small brick-red spot which then leads to the formation of large (1/4 to 1in. in diam.) circular to irregular shaped spots with the typical target pattern.</p>
-                      </Col>
-                      <Col xs={7} md={6} >
+                      
+                     
                         <b>
                           Cure
                         </b>
                         <p style={{textAlign:"justify"}}>Thus, a single application of a fungicide late in the season may limit some defoliation in mid and upper canopy</p>
-                      </Col>
                       
                       </Row>
 
